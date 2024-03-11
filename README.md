@@ -6,6 +6,7 @@ This document provides an overview of the application's features, technology sta
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Live URL](#live-url)
 - [Tech Stacks](#tech-stacks)
 - [Installation](#installation)
 - [Testing](#testing)
@@ -23,6 +24,9 @@ This application is built using a modern technology stack that includes Tailwind
 - Display Repositories
   - Display list of repositories for each user
   - Each item of list contains name, description and star
+
+## Live URL
+  https://github-api-app-phi.vercel.app
 
 ## Tech Stacks
 
