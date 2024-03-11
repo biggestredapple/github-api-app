@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  frontend-app:
+    build: .  
+    image: github-api:latest
+    container_name: github-api-frontend
+    ports:
+      - '4173:4173'
+    environment:
+      VITE_BASE_URL: ${VITE_BASE_URL}
+    restart: on-failure
